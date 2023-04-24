@@ -17,7 +17,7 @@ h1{
     padding: 0 0 10px 0;
 }
 #date{
-    color:black;
+    color:ghostwhite;
     font-size:12px;
     font-style: italic;
 }
@@ -25,7 +25,10 @@ h1{
     color:yellow;
     font-style: italic;
 }
-.cb{
+.cb {
     background-color: lightcyan;
-    color:green;
+    color: green;
+}
+#la{
+    background-color: white;
 }

@@ -24,6 +24,7 @@ urlpatterns = [
 
     path('<year>/<month>/<day>/<post>/', views.post_detail_view, name='post_detail'),
     path("<id>/share/", views.mail_send_view),
+    path('tag/<tag_slug>', views.post_list_view, name='post_list_by_tag_name'),
     path("bssample/",views.bs_sample_view),
 
     # use-in-last
